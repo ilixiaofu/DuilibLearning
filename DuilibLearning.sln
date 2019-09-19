@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "third_party", "third_party"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcef_dll_wrapper", "third_party\cef_wrapper\libcef_dll_wrapper.vcxproj", "{A9D6DC71-C0DC-4549-AEA0-3B15B44E86A9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo_04", "samples\demo_04\demo_04.vcxproj", "{A8958BB0-F2F6-41B8-A4EB-8DACAE6454F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -109,6 +111,14 @@ Global
 		{A9D6DC71-C0DC-4549-AEA0-3B15B44E86A9}.Release|x64.Build.0 = Release|x64
 		{A9D6DC71-C0DC-4549-AEA0-3B15B44E86A9}.Release|x86.ActiveCfg = Release|Win32
 		{A9D6DC71-C0DC-4549-AEA0-3B15B44E86A9}.Release|x86.Build.0 = Release|Win32
+		{A8958BB0-F2F6-41B8-A4EB-8DACAE6454F1}.Debug|x64.ActiveCfg = Debug|x64
+		{A8958BB0-F2F6-41B8-A4EB-8DACAE6454F1}.Debug|x64.Build.0 = Debug|x64
+		{A8958BB0-F2F6-41B8-A4EB-8DACAE6454F1}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8958BB0-F2F6-41B8-A4EB-8DACAE6454F1}.Debug|x86.Build.0 = Debug|Win32
+		{A8958BB0-F2F6-41B8-A4EB-8DACAE6454F1}.Release|x64.ActiveCfg = Release|x64
+		{A8958BB0-F2F6-41B8-A4EB-8DACAE6454F1}.Release|x64.Build.0 = Release|x64
+		{A8958BB0-F2F6-41B8-A4EB-8DACAE6454F1}.Release|x86.ActiveCfg = Release|Win32
+		{A8958BB0-F2F6-41B8-A4EB-8DACAE6454F1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +133,7 @@ Global
 		{3AAD6C32-0B41-433D-AF47-D6D58A0DE13B} = {89F0711B-7B46-4D7B-B23C-9D0079DB72F7}
 		{0149BA6E-3C0A-426D-AA0A-0B9EC7742F19} = {9CC20F2A-8E86-401E-9B76-5E2BEDAC5358}
 		{A9D6DC71-C0DC-4549-AEA0-3B15B44E86A9} = {38D26890-F0E1-4103-AE5B-78379B38B430}
+		{A8958BB0-F2F6-41B8-A4EB-8DACAE6454F1} = {89F0711B-7B46-4D7B-B23C-9D0079DB72F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5337C3CB-9491-4CDF-8E78-9DD59F02FFDB}
